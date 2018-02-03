@@ -1,4 +1,4 @@
-VincentTest-eureka-server: 架构服务注册中心
+VincentTest-eureka-server: 架构服务注册中心<br/>
 VincentTest-eureka-provider： 服务提供方
 VincentTest-eureka-consu： 服务消费方， （Ribbon+RestTemplate）+Hytrix
 VincentTest-eureka-consu-feign: 服务消费方 （Feign）+ Hytrix
