@@ -1,0 +1,17 @@
+server:
+  port: 5334
+spring:
+  application:
+    name: zuul-consumer
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:1111/eureka/
+zuul:
+  routes:
+    api-a:
+      path: /api-a/**
+      serviceId: ribbon-consumer
+    api-b:
+      path: /api-b/**
+      serviceId: feign-consumer   
